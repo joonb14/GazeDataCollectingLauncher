@@ -1,8 +1,8 @@
 # Android GazeDataCollectingLauncher
 ### This app is based on following examples
 Camera2Api: https://github.com/android/camera-samples/tree/master/Camera2Basic <br>
-For Launcher example: https://parallelcodes.com/create-android-launcher-program/
-<img width="800" src="https://user-images.githubusercontent.com/30307587/84723891-b34df100-afc1-11ea-9c7b-ed1fbafed6ef.png">
+For Launcher example: https://parallelcodes.com/create-android-launcher-program/ <br>
+<img width="300" src="https://user-images.githubusercontent.com/30307587/84723891-b34df100-afc1-11ea-9c7b-ed1fbafed6ef.png">
 ### Application Details
 This app collects Front Facing Camera Frame, Gyroscope, Accelerometer, touch (X,Y) position whenever you touch the items in launcher. In order to process and save Front Facing Camera Frame, I delayed starting new Activity by 1sec(1000ms). Otherwise you will face errors such as Camera Handler trying to send message to dead thread.
 ### Check the Permissions before using the APP
