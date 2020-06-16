@@ -1,5 +1,5 @@
-BASED on BELOW EXAMPLE CODE
-MODIFIED CAMERA2BASIC SAMPLE
+BASED on BELOW EXAMPLE CODE <br>
+MODIFIED CAMERA2BASIC SAMPLE<br>
 Android Camera2Basic Sample
 ===================================
 
