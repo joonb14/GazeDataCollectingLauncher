@@ -18,5 +18,6 @@ My app's default Capturing frame resolution is 640x480.<br>
 You can change this setting by modifying <br>Camera2BasicFragement.java Line 569: mImageReader = ImageReader.newInstance(480, 640, ImageFormat.JPEG, /*maxImages*/2);<br>
 ### Parse Saved Data
 Image will be saved to /sdcard/CaptureApp/ directory <br>
+If you run into problems in saving images, consider creating directory CaptureApp in /sdcard/ using adb shell then restart the App <br>
 I saved all Front Facing Camera Frame, Gyroscope, Accelerometer, touch (X,Y) position in 1 image file. By storing Gyroscope, Accelerometer, touch (X,Y) position in file name. The file name is in following format<br> "pic_front_Datetime_picturecount_positionX_positionY_gyroscopeX_gyroscopeY_gyroscopeZ_accelerometerX_accelerometerY_accelerometerZ.jpg"<br>
 I used Sensor.TYPE_GYROSCOPE, Sensor.TYPE_ACCELEROMETER which are calibrated data. If you want to get Raw data, check informations in https://developer.android.com/guide/topics/sensors/sensors_motion
