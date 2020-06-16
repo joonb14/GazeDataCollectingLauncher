@@ -1,4 +1,8 @@
 # Android GazeDataCollectingLauncher
+### This app is based on following examples
+
+For Launcher example: https://parallelcodes.com/create-android-launcher-program/
+### Application Details
 This app collects Front Facing Camera Frame, Gyroscope, Accelerometer, touch (X,Y) position whenever you touch the items in launcher. In order to process and save Front Facing Camera Frame, I delayed starting new Activity by 1sec(1000ms). Otherwise you will face errors such as Camera Handler trying to send message to dead thread.
 ### Check the Permissions before using the APP
 I only ask for Camera permission on the runtime. So you need to check permissions in Application info, and grant External storage R/W permissions before you try collecting data
