@@ -1227,4 +1227,5 @@ public class Camera2BasicFragment extends Fragment
         }
 
     }
+
 }

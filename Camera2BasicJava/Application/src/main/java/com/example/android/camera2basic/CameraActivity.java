@@ -99,4 +99,10 @@ public class CameraActivity extends AppCompatActivity {
     public static String getAcceleroData(){
         return accX+ "_"+accY+"_"+accZ;
     }
+
+    @Override
+    public void onBackPressed() {
+        // super.onBackPressed();
+
+    }
 }
