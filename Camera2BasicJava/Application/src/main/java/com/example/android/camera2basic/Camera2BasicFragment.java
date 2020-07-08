@@ -570,8 +570,8 @@ public class Camera2BasicFragment extends Fragment
                 mImageReader.setOnImageAvailableListener(mOnImageAvailableListener, mBackgroundHandler);
 
                 //MOBED for Multi Camera API
-                mWideImageReader = ImageReader.newInstance(largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/2);
-                mWideImageReader.setOnImageAvailableListener(mOnImageAvailableListener, mBackgroundHandler);
+//                mWideImageReader = ImageReader.newInstance(largest.getWidth(), largest.getHeight(), ImageFormat.JPEG, /*maxImages*/2);
+//                mWideImageReader.setOnImageAvailableListener(mOnImageAvailableListener, mBackgroundHandler);
 
                 // Find out if we need to swap dimension to get the preview size relative to sensor
                 // coordinate.
