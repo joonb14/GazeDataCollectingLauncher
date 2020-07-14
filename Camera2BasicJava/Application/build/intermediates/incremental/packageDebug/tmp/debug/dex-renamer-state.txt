@@ -1,4 +1,4 @@
-#Fri Jun 19 08:59:35 KST 2020
+#Tue Jul 14 09:35:59 KST 2020
 base.0=C\:\\Android Apps\\github\\GazeDataCollectingLauncher\\Camera2BasicJava\\Application\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 path.1=classes.dex
 renamed.1=classes2.dex
